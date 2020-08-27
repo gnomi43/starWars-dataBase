@@ -1,30 +1,14 @@
 import React from 'react';
 import ItemList from '../item-list';
-import PersonDetails from '../person-details';
+import ItemDetails from '../item-details';
 import ErrorIndicator from '../error-indicator';
 import SwapiService from '../../services/swapi-service';
 
 import './people-page.css';
 
-const Row = ({ left, right }) => {
-    return(
-        <div className="row mb2">
-            <div className="col-md-6">
-                { left }
-            </div>
-            <div className="col-md-6">
-                { right }
-            </div>
-        </div>  
-    );
-};
-
-export default class PeoplePage extends React.Component {
-
-    swapiService = new SwapiService();
+class ErrorBoundry extends React.Component {
 
     state={
-        selectedPerson: 3,
         hasError: false
     };
 
@@ -34,9 +18,29 @@ export default class PeoplePage extends React.Component {
         });
     };
 
+    render() {
+            if(this.state.hasError){
+                return <ErrorIndicator />
+            }
+            return this.props.children;
+    };
+
+};
+
+export default class PeoplePage extends React.Component {
+
+    swapiService = new SwapiService();
+
+    state={
+        selectedItem: 3,
+        hasError: false
+    };
+
+
+
     onPersonSelected = (id) => {
         this.setState({
-          selectedPerson: id
+            selectedItem: id
         });
       };
 
@@ -47,17 +51,23 @@ export default class PeoplePage extends React.Component {
 
         const itemList = (
             <ItemList   onItemSelected = {this.onPersonSelected}
-            getData= {this.swapiService.getAllPeople}
-            renderItem = {({name, gender, birthYear}) => 
-                        `${name} (${gender} ${birthYear})`}/>
+            getData= {this.swapiService.getAllPeople}>
+
+            {(i) => (
+                `${i.name} (${i.birthYear})`
+            )}
+
+            </ItemList>
         );
 
-        const personDetails = (
-            <PersonDetails personId = {this.state.selectedPerson}/>
+        const itemDetails = (
+            <ErrorBoundry>
+                <ItemDetails itemId = {this.state.selectedItem}/>
+            </ErrorBoundry>
         );
         
         return( 
-            <Row left={ itemList } right={ personDetails }/>
+            <Row left={ itemList } right={ itemDetails }/>
         );
     };
 };
