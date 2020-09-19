@@ -23,7 +23,7 @@ export default class App extends React.Component {
     return (
       <ErrorBoundry>
         <SwapiServiceProvider value={this.swapiService} >
-          <Router>
+          <Router basename="/stardb">
             <div className="stardb-app">
               <Header />
               <RandomPlanet />
