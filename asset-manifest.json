@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/swapicoDB/static/css/main.b4e6b2b9.chunk.css",
-    "main.js": "/swapicoDB/static/js/main.60028a3f.chunk.js",
-    "main.js.map": "/swapicoDB/static/js/main.60028a3f.chunk.js.map",
+    "main.js": "/swapicoDB/static/js/main.b5ff600a.chunk.js",
+    "main.js.map": "/swapicoDB/static/js/main.b5ff600a.chunk.js.map",
     "runtime-main.js": "/swapicoDB/static/js/runtime-main.7a92924d.js",
     "runtime-main.js.map": "/swapicoDB/static/js/runtime-main.7a92924d.js.map",
     "static/js/2.f95e4a8b.chunk.js": "/swapicoDB/static/js/2.f95e4a8b.chunk.js",
     "static/js/2.f95e4a8b.chunk.js.map": "/swapicoDB/static/js/2.f95e4a8b.chunk.js.map",
     "index.html": "/swapicoDB/index.html",
-    "precache-manifest.3b6c700cc6ffe1f889935e1b0ed123b1.js": "/swapicoDB/precache-manifest.3b6c700cc6ffe1f889935e1b0ed123b1.js",
+    "precache-manifest.ac5ddd2b77e0b21b35b4c274fe52b7ed.js": "/swapicoDB/precache-manifest.ac5ddd2b77e0b21b35b4c274fe52b7ed.js",
     "service-worker.js": "/swapicoDB/service-worker.js",
     "static/css/main.b4e6b2b9.chunk.css.map": "/swapicoDB/static/css/main.b4e6b2b9.chunk.css.map",
     "static/js/2.f95e4a8b.chunk.js.LICENSE.txt": "/swapicoDB/static/js/2.f95e4a8b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7a92924d.js",
     "static/js/2.f95e4a8b.chunk.js",
     "static/css/main.b4e6b2b9.chunk.css",
-    "static/js/main.60028a3f.chunk.js"
+    "static/js/main.b5ff600a.chunk.js"
   ]
 }

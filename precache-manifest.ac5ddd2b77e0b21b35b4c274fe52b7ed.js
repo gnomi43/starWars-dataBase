@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12ba86844a143a8d5cb7db75c4e14219",
+    "revision": "fa24196dc39c0aa9286caa23c0b1ad10",
     "url": "/swapicoDB/index.html"
   },
   {
-    "revision": "563c6495adb39a41c7c8",
+    "revision": "648b1995ce2c8fa90087",
     "url": "/swapicoDB/static/css/main.b4e6b2b9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/swapicoDB/static/js/2.f95e4a8b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "563c6495adb39a41c7c8",
-    "url": "/swapicoDB/static/js/main.60028a3f.chunk.js"
+    "revision": "648b1995ce2c8fa90087",
+    "url": "/swapicoDB/static/js/main.b5ff600a.chunk.js"
   },
   {
     "revision": "390055004e7fec98eaf6",
