@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gnomi43/starWars-dataBasestatic/css/main.b4e6b2b9.chunk.css",
-    "main.js": "/gnomi43/starWars-dataBasestatic/js/main.cf5cf363.chunk.js",
-    "main.js.map": "/gnomi43/starWars-dataBasestatic/js/main.cf5cf363.chunk.js.map",
+    "main.js": "/gnomi43/starWars-dataBasestatic/js/main.8437faed.chunk.js",
+    "main.js.map": "/gnomi43/starWars-dataBasestatic/js/main.8437faed.chunk.js.map",
     "runtime-main.js": "/gnomi43/starWars-dataBasestatic/js/runtime-main.c3f9c686.js",
     "runtime-main.js.map": "/gnomi43/starWars-dataBasestatic/js/runtime-main.c3f9c686.js.map",
     "static/js/2.f95e4a8b.chunk.js": "/gnomi43/starWars-dataBasestatic/js/2.f95e4a8b.chunk.js",
     "static/js/2.f95e4a8b.chunk.js.map": "/gnomi43/starWars-dataBasestatic/js/2.f95e4a8b.chunk.js.map",
     "index.html": "/gnomi43/starWars-dataBaseindex.html",
-    "precache-manifest.40bf400a4db7749453c57c138c286c07.js": "/gnomi43/starWars-dataBaseprecache-manifest.40bf400a4db7749453c57c138c286c07.js",
+    "precache-manifest.61f182cac2ceddf473bc0185dc6063e4.js": "/gnomi43/starWars-dataBaseprecache-manifest.61f182cac2ceddf473bc0185dc6063e4.js",
     "service-worker.js": "/gnomi43/starWars-dataBaseservice-worker.js",
     "static/css/main.b4e6b2b9.chunk.css.map": "/gnomi43/starWars-dataBasestatic/css/main.b4e6b2b9.chunk.css.map",
     "static/js/2.f95e4a8b.chunk.js.LICENSE.txt": "/gnomi43/starWars-dataBasestatic/js/2.f95e4a8b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c3f9c686.js",
     "static/js/2.f95e4a8b.chunk.js",
     "static/css/main.b4e6b2b9.chunk.css",
-    "static/js/main.cf5cf363.chunk.js"
+    "static/js/main.8437faed.chunk.js"
   ]
 }
